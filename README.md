@@ -16,7 +16,10 @@ and the Flutter guide for
 This is a package that is created out of need. It houses the list of Tertiary Institutions in the African Continent.
 
 ## Showcase
-screenshots/africa-school-example.mp4
+
+https://user-images.githubusercontent.com/53568423/150047031-6825d6f7-1377-4624-b9a2-26fbf3123869.mp4
+
+
 
 ## Features
 
