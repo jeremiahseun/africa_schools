@@ -11,29 +11,53 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+# Africa Schools - Tertiary Institutions
+
+This is a package that is created out of need. It houses the list of Tertiary Institutions in the African Continent.
+
+## Showcase
+screenshots/africa-school-example.mp4
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- List of Universities
+- List of Polytechnics
+- List of Colleges of Education
+- List of Health Sciences 
+
+### ! We only have Nigeria's Tertiary Institutions here but we hope to evolve to other countries.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+### 🎖 Installing
+
+```yaml
+dependencies:
+  africa_schools: ^latest_version
+```
+
+### ⚡️ Import
+
+```dart
+import 'package:africa_schools/africa_schools.dart';
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
 ```dart
-const like = 'sample';
+Nigeria.universities.map<DropdownMenuItem<String>>((String value) {
+return DropdownMenuItem<String>(
+    value: value,
+    child: Text(value,
+    maxLines: 1, overflow: TextOverflow.ellipsis),
+    );
+    }).toList(),
 ```
 
-## Additional information
+## 🐛 Bugs/Requests
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+If you encounter any problems feel free to open an issue. If you feel the library is
+missing a feature, please raise a ticket on Github and I'll look into it.
+Pull request are also welcome.
+
+We also welcome contributors. Let us improve this package and make it more interesting 😎
