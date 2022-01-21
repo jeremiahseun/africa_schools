@@ -1,4 +1,10 @@
 class Nigeria {
+  /// HERE STARTS THE LIST OF INSTITUTIONS FOR NIGERIAN SCHOOLS
+  /// AND IT IS DIVIDED INTO CATEGORIES SO AS TO EASILY FIND THEM
+  /// AND EASILY SEARCH FOR THEM
+
+  /// THE [UNIVERSITY] LIST
+  /// THIS IS WHERE ALL THE UNIVERSITIES ARE LISTED
   static const List<Object> universities = [
     "Abia State University",
     "Abubakar Tafawa Balewa University",
@@ -116,6 +122,8 @@ class Nigeria {
     "Yobe State University",
   ];
 
+  /// THE [POLYTECHNICS] LIST
+  /// THIS IS WHERE ALL THE POLYTECHNICS ARE LISTED - BOTH PRIVATE AND PUBLIC
   static const List<Object> polytechnics = [
     "Air Force Institute of Technology, Kaduna, Kaduna State",
     "Federal Polytechnic, Auchi, Edo State",
@@ -239,6 +247,10 @@ class Nigeria {
     "Wolex Polytechnic, Dopemu, Lagos State",
   ];
 
+  /// THE [HEALTH SCIENCE] LIST
+  /// IT WAS DISCOVERED THAT HEALTH SCIENCE IS NOT AS LISTED ONLINE
+  /// AS IT SHOULD BE, SO WE DECIDED TO ADD THEM HERE SO THAT IT WILL
+  /// BE USEFUL TO AS MANY THAT ARE INTERESTED IN HEALTH SCIENCE SCHOOLS
   static const List<Object> healthSciences = [
     "Ahmadu Bello University Teaching Hospital P.M.B. , Shika, Zaria, Kaduna State",
     "Aminu Kano Teaching Hospital, School of Health Information Management, Kano, Kano State",
@@ -255,6 +267,8 @@ class Nigeria {
     "School of Health Information Management, Nnamdi Azikiwe University Teaching Hospital, Nnewi, Anambra State",
   ];
 
+  /// THE [COLLEGE OF EDUCATION] LIST
+  /// THIS LIST COVERES BOTH PURE COLLEGE OF EDUCATION AND PRIMARY EDUCATION INSTITUTIONS
   static const List<Object> collegeOfEducation = [
     "Federal College of Education (Technical), Asaba",
     "Federal College of Education, Kano",
@@ -463,6 +477,9 @@ class Nigeria {
     "National Institute for Nigerian Languages (NINLAN)",
   ];
 
+  /// AND IT IS POSSIBLE THAT YOU WANT TO GET THE WHOLE LIST OF INSTITUTIONS
+  /// SO WE DECIDED TO MAKE A FULL LIST OF ALL INSTITUTIONS AS CATEGORIZED IN THE
+  /// [INSTITUTIONS_LIST] VARIABLE ABOVE.
   static const List<Object> allSchools = [
     ...universities,
     ...polytechnics,

@@ -11,5 +11,6 @@ A package that makes you get access to African Tertiary Institutions.
 
 ## 1.0.1
 ### Schools are now Objects and not Strings
-- This will enables us to have more control over the List - we can add more things in a school
+- This will enables us to have more control over the List - we can add more things in a school.
 - Tests were written to ensure that everything works as expected.
+- Comments are added so as to make the developer know what is happening in a place.

@@ -11,11 +11,12 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:example/main.dart';
 
 void main() {
-  testWidgets('To test if the dropdown shows and works well', (WidgetTester tester) async {
+  testWidgets('To test if the dropdown shows and works well',
+      (WidgetTester tester) async {
     // Build our app and trigger a frame.
     await tester.pumpWidget(const MyApp());
 
-        expect(find.byType(DropdownButton), findsNWidgets(2));
+    expect(find.byType(DropdownButton), findsNWidgets(2));
     expect(find.widgetWithText(DropdownButton, 'University of Ibadan'),
         findsNothing);
 
