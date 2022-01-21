@@ -1,5 +1,5 @@
 class Nigeria {
-  static const List<String> universities = [
+  static const List<Object> universities = [
     "Abia State University",
     "Abubakar Tafawa Balewa University",
     "Achievers University, Owo",
@@ -116,7 +116,7 @@ class Nigeria {
     "Yobe State University",
   ];
 
-  static const List<String> polytechnics = [
+  static const List<Object> polytechnics = [
     "Air Force Institute of Technology, Kaduna, Kaduna State",
     "Federal Polytechnic, Auchi, Edo State",
     "Federal Polytechnic, Ado-Ekiti, Ekiti State",
@@ -239,7 +239,7 @@ class Nigeria {
     "Wolex Polytechnic, Dopemu, Lagos State",
   ];
 
-  static const List<String> healthSciences = [
+  static const List<Object> healthSciences = [
     "Ahmadu Bello University Teaching Hospital P.M.B. , Shika, Zaria, Kaduna State",
     "Aminu Kano Teaching Hospital, School of Health Information Management, Kano, Kano State",
     "School of Health Information Management, Lagos University Teaching Hospital, Idi-Araba, Lagos State",
@@ -255,7 +255,7 @@ class Nigeria {
     "School of Health Information Management, Nnamdi Azikiwe University Teaching Hospital, Nnewi, Anambra State",
   ];
 
-  static const List<String> collegeOfEducation = [
+  static const List<Object> collegeOfEducation = [
     "Federal College of Education (Technical), Asaba",
     "Federal College of Education, Kano",
     "Federal College of Education (Special), Oyo",
@@ -463,7 +463,7 @@ class Nigeria {
     "National Institute for Nigerian Languages (NINLAN)",
   ];
 
-  static const List<String> allSchools = [
+  static const List<Object> allSchools = [
     ...universities,
     ...polytechnics,
     ...collegeOfEducation,

@@ -49,9 +49,9 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  String programValue = 'Select your Programme';
-  String schoolValue = 'Select your school';
-  List<String> schools = [];
+  Object programValue = 'Select your Programme';
+  Object schoolValue = 'Select your school';
+  List<Object> schools = [];
 
   @override
   Widget build(BuildContext context) {
@@ -81,7 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     .copyWith(fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 30),
-              DropdownButton<String>(
+              DropdownButton<Object>(
                 value: programValue,
                 isExpanded: true,
                 underline: const SizedBox(),
@@ -118,7 +118,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 }).toList(),
               ),
               const SizedBox(height: 30),
-              DropdownButton<String>(
+              DropdownButton<Object>(
                 value: schoolValue,
                 isExpanded: true,
                 underline: const SizedBox(),
@@ -130,10 +130,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 },
                 items: programValue == 'Select your Programme'
                     ? []
-                    : schools.map<DropdownMenuItem<String>>((String value) {
-                        return DropdownMenuItem<String>(
+                    : schools.map<DropdownMenuItem<Object>>((Object value) {
+                        return DropdownMenuItem<Object>(
                           value: value,
-                          child: Text(value,
+                          child: Text(value.toString(),
                               maxLines: 1, overflow: TextOverflow.ellipsis),
                         );
                       }).toList(),
