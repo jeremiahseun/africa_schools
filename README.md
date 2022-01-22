@@ -49,12 +49,12 @@ import 'package:africa_schools/africa_schools.dart';
 
 ```dart
 Nigeria.universities.map<DropdownMenuItem<String>>((String value) {
-return DropdownMenuItem<String>(
+  return DropdownMenuItem<String>(
     value: value,
     child: Text(value,
     maxLines: 1, overflow: TextOverflow.ellipsis),
-    );
-    }).toList(),
+  );
+}).toList(),
 ```
 
 ## 🐛 Bugs/Requests
